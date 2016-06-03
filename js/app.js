@@ -10,6 +10,11 @@ angular.module('app', ['ui.router'])
         controller: 'mainController'
       })
 
+      .state('resume', {
+        url: '/resume',
+        templateUrl: './routes/resume.html'
+      })
+
       .state('portfolio', {
         url: '/portfolio',
         templateUrl: './routes/portfolio.html'
